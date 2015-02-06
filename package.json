@@ -1,0 +1,35 @@
+{
+  "name": "flux-comment",
+  "version": "0.0.1",
+  "description": "Experimenting with the flux pattern",
+  "repository": "https://github.com/jarsbe/flux-comment",
+  "main": "js/main.js",
+  "dependencies": {
+    "express": "^4.11.2",
+    "flux": "^2.0.0",
+    "node-jsx": "^0.12.4",
+    "object-assign": "^1.0.0",
+    "react": "^0.13.0-beta.1"
+  },
+  "devDependencies": {
+    "6to5": "^3.3.9",
+    "6to5-core": "^3.3.9",
+    "6to5-loader": "^3.0.0",
+    "css-loader": "^0.9.1",
+    "jest-cli": "~0.1.17",
+    "jsx-loader": "^0.12.2",
+    "raw-loader": "^0.5.1",
+    "reactify": "^0.15.2",
+    "sass-loader": "^0.4.0-beta.1",
+    "style-loader": "^0.8.3",
+    "webpack": "^1.5.3"
+  },
+  "scripts": {
+    "start": "webpack -w",
+    "test": "jest"
+  },
+  "author": "Jack Callister",
+  "jest": {
+    "rootDir": "./js"
+  }
+}
